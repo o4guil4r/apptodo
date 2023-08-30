@@ -5,6 +5,7 @@ on:
     branches: [ "master" ]
 
 jobs:
+  
   build:
     name: Build image
     runs-on: node:14-alpine
